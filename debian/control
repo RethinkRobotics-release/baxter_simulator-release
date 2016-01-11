@@ -1,0 +1,12 @@
+Source: ros-indigo-baxter-sim-io
+Section: misc
+Priority: extra
+Maintainer: Rethink Robotics Inc. <rsdk.support@rethinkrobotics.com>
+Build-Depends: debhelper (>= 9.0.0), libqt4-dev, ros-indigo-baxter-core-msgs, ros-indigo-catkin, ros-indigo-roscpp
+Homepage: 
+Standards-Version: 3.9.2
+
+Package: ros-indigo-baxter-sim-io
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, libqt4-dev, ros-indigo-baxter-core-msgs, ros-indigo-roscpp
+Description: The Navigator buttons for the Baxter Research Robot are simulated, and their states are captured and published on the corresponding rostopics
